@@ -1,0 +1,45 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.com.novaysys.businesscard",
+  "serialNumber": "123456789",
+  "teamIdentifier": "ABCDE12345",
+  "organizationName": "NovaSys",
+  "description": "Biglietto da visita di Simone Pontillo",
+  "logoText": "Simone Pontillo",
+  "foregroundColor": "rgb(255, 255, 255)",
+  "backgroundColor": "rgb(0, 0, 0)",
+  "barcode": {
+    "message": "https://www.novaysys.com",
+    "format": "PKBarcodeFormatQR",
+    "messageEncoding": "iso-8859-1"
+  },
+  "locations": [
+    {
+      "latitude": 45.4215,
+      "longitude": -75.6992
+    }
+  ],
+  "eventTicket": {
+    "headerFields": [
+      {
+        "key": "name",
+        "label": "Simone Pontillo",
+        "value": "Founder & CEO"
+      }
+    ],
+    "primaryFields": [
+      {
+        "key": "company",
+        "label": "NovaSys",
+        "value": "Innovating Tomorrow"
+      }
+    ],
+    "secondaryFields": [
+      {
+        "key": "email",
+        "label": "Email",
+        "value": "contact@novaysys.com"
+      }
+    ]
+  }
+}
