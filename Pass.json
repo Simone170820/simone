@@ -1,0 +1,34 @@
+{
+    "formatVersion": 1,
+    "passTypeIdentifier": "pass.com.novasys.visita",
+    "serialNumber": "123456789",
+    "teamIdentifier": "YOUR_TEAM_ID",
+    "organizationName": "NovaSys",
+    "description": "Biglietto da visita virtuale di Simone Pontillo",
+    "logoText": "Simone Pontillo",
+    "foregroundColor": "rgb(0, 0, 0)",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "thumbnail": "logo.jpg",
+    "images": {
+        "icon": "logo.jpg",
+        "logo": "logo.jpg"
+    },
+    "fields": {
+        "primaryFields": [{
+            "key": "name",
+            "label": "Simone Pontillo",
+            "value": "Developer"
+        }],
+        "secondaryFields": [{
+            "key": "contact",
+            "label": "Contatti",
+            "value": "+39 3382515607"
+        }]
+    },
+    "webServiceURL": "https://www.novaysys.com",
+    "barcode": {
+        "message": "SimonePontillo",
+        "format": "PKBarcodeFormatQR",
+        "altText": "QR Code di Simone Pontillo"
+    }
+}
